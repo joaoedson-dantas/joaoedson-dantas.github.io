@@ -1,0 +1,20 @@
+/* btn */
+
+.btn-01 {
+  display: inline-block;
+  text-align: center;
+  color: var(--cor-02);
+  padding: 10px 20px;
+  background-color: var(--cor-04);
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.btn-01:hover {
+  background-color: var(--cor-05);
+  transition: 0.3s;
+}
+
+.estilo-title {
+  color: var(--cor-04);
+}

@@ -1,0 +1,19 @@
+body {
+  background-color: var(--cor-02);
+}
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
