@@ -2,10 +2,11 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0px 10px;
+  padding-bottom: 120px;
 }
 
 .habilidades-container-bg h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   padding-bottom: 60px;
   color: var(--cor-06);
 }
