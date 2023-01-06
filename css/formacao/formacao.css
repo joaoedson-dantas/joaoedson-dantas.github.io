@@ -114,3 +114,33 @@
     gap: 60px;
   }
 }
+
+/* Estilo do Script */
+.js .item-visible {
+  display: none;
+}
+
+.formacao-item h3::after {
+  content: "⬎";
+  margin-left: 10px;
+}
+
+.formacao-item h3.ativo::after {
+  content: "⬏";
+}
+
+.js .item-visible.ativo {
+  display: block;
+  animation: slidDown 0.5s forwards;
+}
+
+@keyframes slidDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    max-height: 400px;
+    opacity: 1;
+  }
+}

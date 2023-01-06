@@ -16,19 +16,19 @@
     <nav id="nav">
       <ul class="header-menu">
         <li class="header-item">
-          <a href="">Inicio</a>
+          <a href="#inicio">Inicio</a>
         </li>
         <li class="header-item">
-          <a href="">Serviços</a>
+          <a href="#servicos">Serviços</a>
         </li>
         <li class="header-item">
-          <a href="">Formação</a>
+          <a href="#formacao">Formação</a>
         </li>
         <li class="header-item">
-          <a href="">Portifólio</a>
+          <a href="#portifolio">Portifólio</a>
         </li>
         <li>
-          <a class="btn-01" href="">Contato</a>
+          <a class="btn-01" href="#contato">Contato</a>
         </li>
       </ul>
       <div class="header-item-2">
@@ -39,7 +39,7 @@
       </div>
     </nav>
   </header>
-  <main>
+  <main id="inicio">
     <div class="main-container">
       <div class="img-perfil">
         <img src="/img/main/perfil.png" alt="">
@@ -72,43 +72,43 @@
         </div>
       </div>
       <div>
-        <a class="btn-01 btn-2" href="">Contato</a>
+        <a class="btn-01 btn-2" href="#contato">Contato</a>
       </div>
       <div class="scroll-down">
         <p class="p-3">Navegue para baixo <img src="/img/main/scroll-bottom-icon 1.svg" alt=""></p>
       </div>
     </div>
   </main>
-  <section class="servicos-container-bg" id="serviços">
+  <section class="servicos-container-bg" id="servicos">
     <h2><span class="estilo-title">O que</span> eu faço?</h2>
     <div class="servicos-container">
       <div class="servicos-item">
         <div>
-          <img src="/img/section-serviços/web-design-brush-icon 1.svg" alt="">
+          <img src="./img/section-serviços/web-design-brush-icon 1.svg" alt="">
         </div>
         <h3>UX & UI Design</h3>
         <p>Produzo interfaces de alta fidelidade com um objetivo de trazer um melhor conforto e uma melhor experiência para o usuário.</p>
       </div>
       <div class="servicos-item">
         <div>
-          <img src="/img/section-serviços/web-page-source-code-icon 1.svg" alt="">
+          <img src="./img/section-serviços/web-page-source-code-icon 1.svg" alt="">
         </div>
         <h3>Website</h3>
         <p>Desenvolvo sites rápido, moderno e 100% reponsivo, utilizando as melhores tecnologias do mercado.</p>
       </div>
       <div class="servicos-item">
         <div>
-          <img src="/img/section-serviços/web-search-result-found-icon 1.svg" alt="">
+          <img src="./img/section-serviços/web-search-result-found-icon 1.svg" alt="">
         </div>
         <h3>SEO - Otimização</h3>
         <p>Seu site em primeiro. Otimização do seu site para melhor resutado nos buscadores como o Google.</p>
       </div>
     </div>
     <div class="btn-container">
-      <a class="btn-01 btn-2 btn-3" href="">Contato</a>
+      <a class="btn-01 btn-2 btn-3" href="#contato">Contato</a>
     </div>
   </section>
-  <section class="habilidades-container-bg">
+  <section class="habilidades-container-bg" id="">
     <h2>Skills</h2>
     <div class="habilidades-container">
       <div class="habiliades-itens">
@@ -132,21 +132,23 @@
         <p>Git e GitHub</p>
       </div>
   </section>
-  <section class="formacao-container-bg">
-    <div class="formacao-container">
-      <div class="formacao-title">
-        <h2>Formação</h2>
-        <p>Minha mais recente experiência acadêmica é a minha faculdade de análise e Desenvolvimento de sistemas, pela faculdade Descomplica 🎓; Assim como cursos intensivos online para me manter sempre atualizado.</p>
-      </div>
-      <div class="formacao-itens-container">
-        <div class="formacao-item">
-          <h3> <img src="./img/section-formação/school.svg" alt=""> Graduação</h3>
+  <section class="formacao-container-bg" id="formacao">
+    <div class="formacao-title">
+      <h2>Formação</h2>
+      <p>Minha mais recente experiência acadêmica é a minha faculdade de análise e Desenvolvimento de sistemas, pela faculdade Descomplica 🎓; Assim como cursos intensivos online para me manter sempre atualizado.</p>
+    </div>
+    <div class="formacao-itens-container js-accordion">
+      <div class="formacao-item">
+        <h3> <img src="./img/section-formação/school.svg" alt=""> Graduação</h3>
+        <div class="item-visible">
           <h4>Análise e desenvimento de sistemas</h4>
           <p>Faculdade Descomplica - Abril 2024 <br>(Em andamento)</p>
         </div>
-        <div class="formacao-itens-container">
-          <div class="formacao-item">
-            <h3> <img src="./img/section-formação/book.svg" alt="">CURSOS INTENSIVOS</h3>
+      </div>
+      <div class="formacao-itens-container js-accordion'">
+        <div class="formacao-item ">
+          <h3> <img src="./img/section-formação/book.svg" alt="">CURSOS INTENSIVOS</h3>
+          <div class="item-visible">
             <div class="item-curso">
               <h4>UX Design & UI Design</h4>
               <p>Origamid - 17h</p>
@@ -161,19 +163,23 @@
             </div>
           </div>
         </div>
-        <div class="formacao-itens-container">
-          <div class="formacao-item-idioma formacao-item">
-            <h3> <img src="./img/section-formação/translate.svg" alt=""> IDIOMAS</h3>
+
+      </div>
+      <div class="formacao-itens-container js-accordion">
+        <div class="formacao-item-idioma formacao-item">
+          <h3> <img src="./img/section-formação/translate.svg" alt=""> IDIOMAS</h3>
+          <div class="item-visible">
             <p>Inglês / <span>Básico</span></p>
             <p>Espanhol / <span>Básico</span></p>
           </div>
         </div>
-        <div class="btn-download-1">
-          <a href="/" class="btn-download">
-            Download CV <img src="/img/section-formação/download.svg" alt="">
-          </a>
-        </div>
       </div>
+      <div class="btn-download-1">
+        <a href="/" class="btn-download">
+          Download CV <img src="/img/section-formação/download.svg" alt="">
+        </a>
+      </div>
+    </div>
   </section>
 
 
